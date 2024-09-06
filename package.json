@@ -1,0 +1,27 @@
+{
+  "name": "auction-bot-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "nginx": "^1.0.8"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages"
+  ],
+  "scripts": {
+    "deploy-backend-local": "cd apps/botBackend && sudo yarn run deploy-local",
+    "deploy-webapp-local": "cd apps/webApp && sudo yarn run deploy-local",
+    "install-all": "yarn && cd apps/botBackend && yarn && cd ../webApp && yarn && cd ../auctionBackend && yarn && cd ../auctionSubgraph && yarn",
+    "install-proxy": "sudo bash ./scripts/setup.sh",
+    "start-proxy": "bash ./scripts/startNGINX.sh",
+    "stop-proxy": "bash ./scripts/stopNGINX.sh",
+    "start-ngrok": "bash ./scripts/startNGROK.sh",
+    "setup-webhook": "bash ./scripts/setupWebhook.sh"
+  },
+  "devDependencies": {
+    "ngrok": "^5.0.0-beta.2"
+  },
+  "private": true
+}

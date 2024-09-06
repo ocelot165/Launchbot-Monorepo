@@ -1,0 +1,19 @@
+{
+  "network": "arbitrum-goerli",
+  "auction": {
+    "address": "0xB792bf99843FBEf42814c0C931FbbA563B579DC5",
+    "startBlock": 50913042
+  },
+  "referral": {
+    "address": "0x2F5534ccDb562cf2BAD5e453248163E51D921e99",
+    "startBlock": 50913042
+  },
+  "erc20Factory" : {
+    "address": "0xD7CEba9905c9311E701Dd2Dc212469D24c09576d",
+    "startBlock": 50913042
+  },
+  "auctionToken": {
+    "address": "0x6BF49C62A715c33B912789D946D2d48769D942A6",
+    "startBlock": 50913042
+  }
+}

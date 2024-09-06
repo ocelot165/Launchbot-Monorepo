@@ -1,0 +1,17 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@pythnetwork/pyth-evm-js": "^1.30.0",
+    "@pythnetwork/pyth-sdk-solidity": "^2.4.0",
+    "bignumber.js": "^9.1.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2",
+    "graphql": "^16.6.0",
+    "graphql-request": "6.0.0",
+    "graphql-tag": "2.12.6"
+  },
+  "private": "true"
+}

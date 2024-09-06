@@ -1,0 +1,19 @@
+{
+  "network": "blast-sepolia",
+  "auction": {
+    "address": "0xc95Bc0Ab5556c4fd347CFF1bb9948208197849d8",
+    "startBlock": 1401780
+  },
+  "referral": {
+    "address": "0xd04655263AeEC6723689BC09c8153b5e0c6B8D1a",
+    "startBlock": 1401780
+  },
+  "erc20Factory": {
+    "address": "0xD01A049DaBE978F14f5f4Bb4814392c19e324bFF",
+    "startBlock": 1401780
+  },
+  "auctionToken": {
+    "address": "0x771fc6a97d47b176B14d25Cf52052EE4f2233004",
+    "startBlock": 1401780
+  }
+}

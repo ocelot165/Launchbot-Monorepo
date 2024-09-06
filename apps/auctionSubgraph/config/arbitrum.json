@@ -1,0 +1,19 @@
+{
+  "network": "arbitrum-oneinshall",
+  "auction": {
+    "address": "0x0886274EDc1C9c5cd375d99f8Bae175b477A0E04",
+    "startBlock": 48856551
+  },
+  "referral": {
+    "address": "0x70795Be4662Bd98009C3508fb72DB1A8769C43A4",
+    "startBlock": 48856551
+  },
+  "erc20Factory" : {
+    "address": "0x018EdcCd7Fed1754f34DDDde47E2AA895c1E0aeA",
+    "startBlock": 48856551
+  },
+  "auctionToken": {
+    "address": "0x018EdcCd7Fed1754f34DDDde47E2AA895c1E0aeA",
+    "startBlock": 48856551
+  }
+}
